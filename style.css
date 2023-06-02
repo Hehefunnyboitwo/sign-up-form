@@ -1,0 +1,105 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    position: absolute;
+    right: 450px;
+}
+
+h4{
+    position: absolute;
+    right: 320px;
+    top: 100px;
+}
+
+input{
+    border-color: black;
+    border-radius: 7.5px;
+}
+
+#bg{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+form{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    z-index: 5;
+}
+
+form > div{
+    margin: 45px;
+}
+
+#logoBar{
+    width: 40%;
+    height: 250px;
+    position: absolute;
+    left:0px;
+    top: 30%;
+    background-color: black;
+    opacity: 70%;
+}
+
+#logo{
+    
+    position: absolute;
+    top: 215px;
+    width: 12%;
+    height: 35%;
+    z-index: 1;
+}
+
+#logoText{
+    position: absolute;
+    color: white;
+    font-size: 700%;
+    top: 190px;
+    left: 200px;
+    z-index: 1;
+}
+
+.password:valid{
+    border-color: lightgreen;
+}
+
+.password:invalid{
+    border-color: red;
+}
+
+#sign-up{
+    background-color: aqua;
+    border-color: none;
+    border-radius: 7px;
+    width: 130px;
+    height: 85px;
+    font-size: x-large;
+    position: absolute;
+    top: 450px;
+    right: 500px;
+}
+
+.required:invalid{
+    border-color: red;
+}
+
+.required:valid{
+    border-color: lightgreen;
+}
+
+html{
+    background-color: lightblue;
+}
+
+#passwordTextConfirm{
+    position: absolute;
+    right: 300px;
+    top: 580px;
+}

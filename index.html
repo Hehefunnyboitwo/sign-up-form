@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sign Up!</h1>
+
+    <h4>DISCLAIMER: This isn't a real sign up service. <br>It is just a simulation for a real webpage. <br>Personal info won't be shared. <br>This is a project for the odin project.</h4>
+
+
+    <form>
+        <div id="name">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" class="required" placeholder="ex. John" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" class="required" placeholder="ex. Smith" required>
+        </div>
+
+
+        <div id="contact">
+            <label for="email">Email Adress:</label>
+            <input type="text" id="email" class="required" placeholder="ex. john.smith@gmail.com" required>
+    
+            <label for="phone-number">Phone Number:</label>
+            <input type="number" id="phone-number" placeholder="ex. 888-888-8880">
+        </div>
+
+        <div id="passwords">
+            <label for="password">Password:</label>
+            <input type="password" id="password" class="password" name="password" class="required" placeholder="ex. Iamsocool123!" minlength="8" maxlength="20" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" class="password" class="required" placeholder="ex. Iamsocool123!" minlength="8" maxlength="20" required>
+        </div>
+
+
+    </form>
+
+    <img src="tony-litvyak-kejQ1YG0ke0-unsplash.jpg" id="bg">
+    <img src="odin.png" id="logo">
+    <div id="logoBar"></div>
+
+    <h1 id="logoText">ODIN</h1>
+    <button id="sign-up" onclick="signUp()">Sign Up!</button>
+    <p id="passwordTextConfirm"></p>
+    <script src="index.js"></script>
+</body>
+</html>
